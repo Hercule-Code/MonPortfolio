@@ -1,0 +1,290 @@
+/* Styles Généraux */
+:root {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+body {
+    background: #fafaf2;
+}
+
+/* Header*/
+nav{
+    opacity: 1;
+}
+nav img {
+    max-width: 100%;
+    max-height: 60px;
+    color: white;
+    
+}
+
+.nom {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow:
+        8px 8px #ff1f8f,
+        20px 20px #000000;
+}
+
+.metier {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow:
+        8px 8px #ff1f8f,
+        20px 20px #000000;
+}
+
+.titre {
+    color: white;
+    text-transform: uppercase;
+}
+
+.rounded {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+/* /Header */
+/* Main */
+/* A Propos */
+.moi {
+    width: 200px;
+    height: 300px;
+}
+
+.presentation {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #312092;
+}
+
+.i {
+    font-weight: bold;
+}
+
+/* / A Propos */
+/* Mes Compétences */
+#competences{
+    background-image: url(../images/1.jpg);
+    background-attachment: fixed;
+}
+#competences li {
+    list-style-type: none;
+}
+
+.icon {
+    width: 9%;
+}
+
+.competences {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    
+}
+
+/* /Mes Compétences */
+/* Mes Réalisations Web */
+.travaux {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #312092;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.notpass img {
+    transition: all 1.5s ease;
+}
+
+.notpass:hover {
+    transform: scale(1.01);
+}
+
+/* /Mes Réalisations Web */
+/* Mes passions  */
+#passions{
+    background-image:url(../images/1.jpg) ;
+    background-attachment:fixed ;
+}
+#passions h5 {
+    text-transform: uppercase;
+}
+
+.passions {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white
+}
+/* /Mes passions */
+/* /Main */
+/* Footer */
+#footer {
+    height: 12vh;
+    ;
+    background: linear-gradient(to right, #232551, #232551);
+}
+
+.reseaux {
+    font-size: 30px;
+}
+
+.reseaux li {
+    list-style-type: none;
+}
+
+.reseaux a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* /Footer */
+
+/* Autre Vue */
+@media screen and (max-width:600px) {
+    .nom {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+            8px 8px #ff1f8f,
+            20px 20px #000000;
+    }
+
+    .metier {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+            8px 8px #ff1f8f,
+            20px 20px #000000;
+
+    }
+
+    .presentation {
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #312092;
+    }
+
+    .travaux {
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #312092;
+    }
+
+    .competences {
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+    }
+
+    .passion {
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+    }
+
+}
+@media screen and (max-width :1400px) {
+    .nom {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+            8px 8px #ff1f8f,
+            20px 20px #000000;
+    }
+
+    .metier {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        text-shadow:
+            8px 8px #ff1f8f,
+            20px 20px #000000;
+    }
+}
+
+/** Dark CSS */
+
+.dark {
+    background-color: #061118;
+    color: #ffffff;
+}
+
+.dark button {
+    background: #144098;
+    color: #ffffff;
+}
+
+/*  #232551
+    #cca3ac */

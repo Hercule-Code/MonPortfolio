@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="icon/icon.png" />
+    <title>Anthony Russini - Developpeur Web Junior</title>
+
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Java Script -->
+    <script src="JS/scripts.js" defer></script>
+    <!-- Java Script BooStrap -->
+    <script src="JS/bootstrap.js" defer></script>
+
+    <!-- Styles CSS -->
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!-- Styles D'ecriture -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!-- Line Awesome -->
+    <link rel="stylesheet" href="CSS/line-awesome.css">
+    <!-- Mon Style -->
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid text-center">
+                <a class="navbar-brand" href="index.html"><img src="icon/icon.png" alt="logo"></a>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label text-white" for="flexSwitchCheckDefault"></label>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#presentation">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#travaux">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#passions">Passions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="text-center image chambre">
+            <img src="images/chambre.jpg" class="rounded" alt="geek">
+            <h1 class="nom d-block letters">Anthony Russini</h1>
+            <h2 class="metier d-block letters">Développeur Web</h2>
+        </div>
+        <!-- /Navbar -->
+    </header>
+    <!-- /Header -->
+    <main>
+        <!-- Mon profil ou a propos -->
+        <section id="presentation" class="module module-gray text-center">
+            <div class="container">
+                <div class="module-header">
+                    <h1 class="presentation module-title mt-5">
+                        <span>Qui suis-je ?</span>
+                    </h1>
+                    <div class="module-line"></div>
+                </div>
+                <div class="row">
+                    <img class="moi container img-circle rounded-circle mt-2" src="images/moi2.jpg" alt="Profil">
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <p class="lead text-center p-5">
+                            <strong>
+                                <i class="i">
+                                    < Développeur Web Junior>
+                                </i>
+                            </strong>
+                            Passionné par l'univers du web et doté
+                            d'une grande curiosité. Aprés une formation de développeur web. Je suis
+                            aujourd'hui a la recherche d'une opportunité sur Marseille et sa
+                            périphérie d'une Alternance pour un BTS SIO afin d'acquérir le maximum
+                            de compétences techniques.
+                            Je fais aussi des assets 3D par plaisir.
+                            J'ai quelques projets intéressants à vous montrer (Coming Soon !)
+                            <br>
+                            Vous souhaitez avoir mon CV au format PDF c'est par
+                            <a href="CV Anthony Russini .pdf">ici.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Mon profil ou A Propos -->
+        <!-- Mes Compétences -->
+        <section id="competences">
+            <h1 class="competences text-center p-3 m-5">Compétences</h1>
+            <div class="row justify-content-center container m-auto ">
+                <div class="col-md-4 mb-2 ">
+                    <div class="list-group">
+                        <ul>
+                            <li><a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5"
+                                    class="list-group-item list-group-item-action"><img class="w-25" src="icon/html.png"
+                                        alt=""> HTML 5</a></li>
+                            <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/Reference"
+                                    class="list-group-item list-group-item-primary"><img class="w-25" src="icon/css.png"
+                                        alt=""> CSS 3</a></li>
+                            <li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference"
+                                    class="list-group-item list-group-item-warning"><img class="w-25 h-50"
+                                        src="icon/js.png" alt=""> Java Script</a></li>
+                            <li><a href="https://www.php.net/manual/fr/"
+                                    class="list-group-item list-group-item-dark"><img class="w-25" src="icon/php.png"
+                                        alt=""> PHP</a></li>
+                            <li><a href="https://sql.sh/" class="list-group-item list-group-item-light"><img
+                                        class="w-25" src="icon/mysql.png" alt=""> My SQL</a></li>
+                    </div>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="list-group">
+                        <ul>
+                            <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                                    class="list-group-item list-group-item-action"><img class="w-25"
+                                        src="icon/bootstrap.png" alt=""> Bootstrap</a></li>
+                            <li><a href="https://angular.io/docs" class="list-group-item list-group-item-danger"><img
+                                        class="w-25" src="icon/angular.png" alt=""> Angular</a></li>
+                            <li><a href="https://api.jquery.com/" class="list-group-item list-group-item-info"><img
+                                        class="w-25" src="icon/jquery.png" alt=""> JQuery</a></li>
+                            <li><a href="https://symfony.com/doc/current/index.html"
+                                    class="list-group-item list-group-item-dark"><img class="w-25"
+                                        src="icon/symfony.png" alt=""> Symfony</a></li>
+                            <li><a href="https://fr.wordpress.org/support/"
+                                    class="list-group-item list-group-item-light"><img class="w-25"
+                                        src="icon/wordpress.png" alt=""> WordPress</a></li>
+                    </div>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="list-group">
+                        <ul>
+                            <li><a href="https://code.visualstudio.com/"
+                                    class="list-group-item list-group-item-info"><img class="w-25" src="icon/visual.png"
+                                        alt=""> Visual Studio Code</a></li>
+                            <li><a href="https://www.sublimetext.com/"
+                                    class="list-group-item list-group-item-danger"><img class="w-25"
+                                        src="icon/sublime.png" alt=""> Sublime Text </a></li>
+                    </div>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-2 m-3">
+                    <div class="list-group">
+                        <ul>
+                            <li><a href="https://www.larousse.fr/dictionnaires/francais-monolingue"
+                                    class="list-group-item list-group-item-primary"><img class="w-25"
+                                        src="icon/france.png" alt=""> Francais</a></li>
+                            <li><a href="https://www.wordreference.com/fr/"
+                                    class="list-group-item list-group-item-danger"><img class="w-25"
+                                        src="icon/england.png" alt=""> Anglais </a></li>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- /Mes Compétences -->
+        <!-- Mes Realisations Web -->
+        <section id="travaux" class="container-fluid">
+            <h1 class="travaux text-center m-5 p-3">Portfolio</h1>
+            <section class="cardtravaux container">
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://anthonyrussini.fr/"><img src="images/portfolio.jpg"
+                                        class="card-img-top w-100 h-100" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Mon portfolio</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow b" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://www.youtube.com/watch?v=Ygnez_odlNg"><img src="images/not-pass.gif"
+                                        class="card-img-top" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Coming Soon</h5>
+                                <p class="card-text text-dark ">En travaux ... Bientot de nouveaux projet .. En cours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://www.youtube.com/watch?v=Ygnez_odlNg"><img src="images/not-pass.gif"
+                                        class="card-img-top" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Coming Soon</h5>
+                                <p class="card-text text-dark ">En travaux ... Bientot de nouveaux projet .. En cours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://www.youtube.com/watch?v=Ygnez_odlNg"><img src="images/not-pass.gif"
+                                        class="card-img-top" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Coming Soon</h5>
+                                <p class="card-text text-dark ">En travaux ... Bientot de nouveaux projet .. En cours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://www.youtube.com/watch?v=Ygnez_odlNg"><img src="images/not-pass.gif"
+                                        class="card-img-top" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Coming Soon</h5>
+                                <p class="card-text text-dark ">En travaux ... Bientot de nouveaux projet .. En cours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="notpass">
+                                <a href="https://www.youtube.com/watch?v=Ygnez_odlNg"><img src="images/not-pass.gif"
+                                        class="card-img-top" alt="Vous ne passerez pas !"></a>
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-dark ">Coming Soon</h5>
+                                <p class="card-text text-dark ">En travaux ... Bientot de nouveaux projet .. En cours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- /Mes Réalisations Web -->
+        <!-- Mes passions -->
+        <section class="content-section pb-3" id="passions">
+            <div class="container">
+                <div class="content-section-heading text-center">
+                    <h1 class="passions m-3 p-3">Passions</h1>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-white">
+                            <img src="images/controller.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Jeux Vidéo</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-white">
+                            <img src="images/silhouette.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Sports</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-white">
+                            <img src="images/3D.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Assets 3D</h5>
+                                <p class="card-text">Clique <a href="Portfolio 3D.pdf">ici</a> pour en voir plus
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card bg-dark text-white">
+                            <img src="images/website.png" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Technologie Web</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Mes passions -->
+    </main>
+    <footer>
+        <section id="footer">
+            <ul class="reseaux d-flex justify-content-center">
+                <li><a class="text-white" href="mailto:anthonyrussini13@gmail.com"><i class="las la-envelope"></i></a>
+                </li>
+                <li><a class="text-white" target="_blank" href="https://github.com/Hercule-Code"> <i
+                            class="lab la-github"></i></a></li>
+                <li><a class="text-white" target="_blank" href="https://www.linkedin.com/in/anthony-russini/"> <i
+                            class="lab la-linkedin-in"></i></a></li>
+            </ul>
+            <p class="text-center m-2 text-white">&copy; 2021 Anthony Russini , Tous droits réservés.</p>
+        </section>
+    </footer>
+</body>
+
+</html>
